@@ -1,0 +1,105 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+    background: #750202;
+}
+
+.main-header-logo{
+    margin-top: -20px;
+    padding: 10px;
+}
+
+.main-header-container-lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 0px;
+}
+
+.main-header-container-list{
+    margin: 0px 20px;
+}
+
+.main-header-container-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    margin: 30px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.special-flight-offers{
+    border:  1px solid #a8a8a8;
+    background: rgba(207, 207, 207, 0.199);
+    width: 80%;
+    margin-left: 9%;
+}
+
+.special-flight-offers-lists{
+    list-style: none;
+    padding: 20px;
+}
+
+
+
+.special-flight-offers-lists li{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin-left: 17%;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #a8a8a8;
+    border-radius: 7px;
+}
+
+.special-flight-offers-lists li img{
+    width: 30px;
+    height: 30px;
+    margin: 15px 20px;
+}
+
+.special-flight-offers-lists li p{
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.special-flight-offers-lists li p,
+.special-flight-offers-lists li b{
+    margin: 20px 0px;
+    padding: 0px 5px;
+}
+
+.special-flight-offers-lists li b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 21px;
+    margin-left: -20px;
+}
+
+.special-flight-offers-lists li a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 15px;
+    border: 1px solid #a8a8a8;
+    border-radius: 7px;
+    background: #ffc600;
+    color: black;
+}

@@ -1,0 +1,158 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.main-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+    background: rgba(121, 0, 0, 0.856);
+}
+
+.main-header-logo{
+    margin-top: -20px;
+    padding: 10px;
+    color: rgb(173, 8, 8);
+}
+
+.main-header-container-lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 3px 0px;
+}
+
+.main-header-container-list{
+    margin: 0px 20px;
+}
+
+.main-header-container-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.ticket{
+    display: flex;
+    flex-direction: column;
+    background: rgba(207, 207, 207, 0.199);
+    width: 40%;
+    max-height: auto;
+    margin: 10% 20%;
+    border: 1px solid black;
+    border-right: 2px dotted black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    order: 1;
+}
+
+.ticket-header{
+    width: 100%;
+    padding: 15px 0px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgba(185, 20, 20, 0.904);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ticket-details{
+    padding: 10px 50px;
+    width: 100%;
+    display: flex;
+}
+
+.ticket-barcode{
+    transform: rotate(90deg);
+    position: relative;
+    margin-top: 65px;
+    left: -10%;
+    width: 200px;
+    height: 100px;
+    background: url("../Images/download.png");
+}
+
+.ticket-details .ticket-details-main{
+    margin-left: -65px;
+}
+
+.ticket-details .ticket-details-main p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.ticket-details .ticket-details-main p b{
+    margin-top: 10%;
+}
+
+.ticket-details .ticket-details-main .date{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.ticket-details .ticket-details-main .date i{
+    font-size: 15px;
+}
+
+.return{
+    margin-left: 100px;
+}
+
+.small-ticket{
+    position: absolute;
+    background: rgba(207, 207, 207, 0.199);
+    width: 15%;
+    max-height: auto;
+    margin-left: 40.2%;
+    border: 1px solid black;
+    border-left: none;
+    border-top: 0.5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: rgba(207, 207, 207, 0.199);
+}
+
+.small-ticket-header{
+    width: 100%;
+    padding: 9px 0px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    background: rgba(185, 20, 20, 0.904);
+    color: white;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.small-ticket-details{
+    padding: 10px 50px;
+    width: 100%;
+    display: flex;
+}
+
+.small-ticket-barcode{
+    position: relative;
+    left: -10%;
+    width: 150px;
+    height: 45px;
+    margin-left: 35px;
+    background: url("../Images/download.png");
+}
+
+.small-ticket-details-main{
+    margin-left: -34px;
+}

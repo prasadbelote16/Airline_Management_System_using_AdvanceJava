@@ -1,0 +1,395 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box{
+    background: url("../Images/home-bg.jpg");
+    height: 70%;
+}
+
+.main-header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.main-header-logo{
+    color: white;
+    background: url('Group4.png');
+    width: 230px;
+    height: 55px;
+}
+
+.main-header-container-lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0px 0px;
+}
+
+.main-header-container-list{
+    margin: 0px 20px;
+}
+
+.main-header-container-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.main-header-container-list a:hover{
+    transition: 0.5s linear;
+    text-decoration: underline;
+}
+
+.main-header-container-username{
+    width: 190px;
+    height: 40px;
+    border: 2px solid #FFD700;
+    padding: 0px 5px;
+    border-radius: 20px;
+}
+
+
+
+.main-header-container-username p{
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-bottom: -50px;
+    color: white;
+}
+
+.main-header-container-username p i{
+    color: greenyellow;
+    margin: 5px 10px;
+}
+
+.book-ticket-box{
+    margin-top: 4%;
+    margin-left: 15%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 70%;
+    height: 40%;
+}
+
+.book-ticket-box-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    height: 20%;
+    margin-top: 4%;
+    margin-bottom: 5px;
+}
+
+.book-ticket-box-heading h2{
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+.Trip_Status button{
+    background: none;
+    border: 1px solid #090975;
+    /* padding:  up right bottom left*/
+    padding: 3px;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 30px;
+}
+
+.Trip_Status .One_Way{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: -2px;
+}
+
+.Trip_Status .Round_Trip{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: -2px;
+}
+
+.book-ticket-lists{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0px;
+    
+}
+
+.book-ticket-list{
+    border: 1px #ccc solid;
+    padding: 0px 10px 0px 10px;
+}
+
+body div div div ul li input[type="text"],
+body div div div ul li input[type="date"]
+body div div div ul li input::placeholder{
+    height: 30%;
+    width: 100%;
+    font-size: 15px;
+}
+
+body div div div ul .From{
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+
+body div div div ul .Class{
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.book-ticket-list-From,
+.book-ticket-list-To,
+.book-ticket-list-Departure,
+.book-ticket-list-Return,
+.book-ticket-list-Class{
+    margin: 1px 0px 10px 0px;
+}
+
+.search_select_box{
+    max-width: 400px;
+}
+
+.search_select_box button{
+    border: 0px solid #8f9496;
+    padding: 0px 0px 0px 4px;
+    color: #000000;
+    font-size: 20px;
+}
+
+body div div div ul p{
+    font-size: 15px;
+    margin: 5px 0px 0px 0px;
+}
+
+.book-ticket-btn{
+    position: relative;
+    top: 5%;
+    border-radius: 12px;
+    padding: 12px 55px 12px 55px;
+    border: none;
+    background: #ffc600;
+    color: #3b3b3b;
+    font-family: sans-serif;
+}
+
+.book-ticket-btn:hover,
+.book-ticket-btn:active{
+    cursor: pointer;
+    transition: 0.5s linear;
+    background: #eebe0f;
+}
+
+.special-flight-offers{
+    border:  1px solid #a8a8a8;
+    background: rgba(207, 207, 207, 0.199);
+    width: 100%;
+}
+
+.special-flight-offers h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+.special-flight-offers-lists{
+    list-style: none;
+    padding: 20px;
+}
+
+.special-flight-offers-lists li{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin-left: 17%;
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid #a8a8a8;
+    border-radius: 7px;
+}
+
+.special-flight-offers-lists li img{
+    width: 30px;
+    height: 30px;
+    margin: 15px 20px;
+}
+
+.special-flight-offers-lists li p{
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.special-flight-offers-lists li p,
+.special-flight-offers-lists li b{
+    margin: 20px 0px;
+    padding: 0px 5px;
+}
+
+.special-flight-offers-lists li b{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 21px;
+    margin-left: -20px;
+}
+
+.special-flight-offers-lists li a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 10px;
+    border: 1px solid #a8a8a8;
+    border-radius: 7px;
+    background: #ffc600;
+    color: black;
+}
+
+.special-flight-offers-lists li a:hover{
+    border: 1px solid black;
+    transition: 0.5s linear;
+    background: #eebe0f;
+}
+
+.recent-blog-heading{
+    margin: 25px 0px;
+    text-align: center;
+}
+
+.recent-blog-details{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+}
+
+
+
+.recent-blog-details-1,
+.recent-blog-details-2,
+.recent-blog-details-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px -60px;
+    margin-bottom: -200px;
+    height: 50px;
+    background: white;
+}
+
+.recent-blog-details-3{
+    margin-right: 0px;
+}
+
+.recent-blog-details-1 img,
+.recent-blog-details-2 img,
+.recent-blog-details-3 img{
+    width: 60%;
+    height: 120px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.recent-blog-details-1-para,
+.recent-blog-details-2-para,
+.recent-blog-details-3-para{
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 60%;
+    margin-top: none;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px 40px;
+    margin: 0px 10px;
+    box-shadow: 0px 10px 20px 5px rgb(212, 212, 212);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer-division{
+    display:flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+}
+
+footer{
+    position: relative;
+    width:100%;
+    background:  #801E33;
+    min-height:100px;
+    padding:20px 50px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+footer .social-icons , footer .menu
+{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 10px 0;
+}
+footer .social-icons li , footer .menu{
+    list-style:none;
+}
+footer .social-icons li a , footer .menu li a{
+    font-size: 2em;
+    color:#fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social-icons li a:hover{
+    transform: translateY(-10px);
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color:#ffc800;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+footer .social-icons li a:hover
+{
+    opacity: 1;
+}
+footer p{
+    color:#fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom:10px;
+    font-size: 1.1em;
+}
+.social-icons  .Credit-cards img{
+    margin-left: 851px;
+    margin-bottom: -41px;
+}
+.logo img{
+    margin-bottom: -48px;
+    margin-left: 42%;
+}
+.p1{
+    text-align: left;
+    margin-left: 11.2%;
+    color: white;
+    font-size: 1.1em;
+}
